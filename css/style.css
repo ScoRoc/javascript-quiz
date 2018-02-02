@@ -1,36 +1,89 @@
 h1 {
-  color: blue;
-  background-color: purlpe;
+  color: #FFDF00;
+  background-color: black;
+  text-align: center;
 
 }
+
+#col-12 buttons {
+  align: center;
+}
+
+buttons {
+  align: center;
+}
+body {
+  background-color: black;
+}
 p {
-  color: black;
-  background-color: blue;
+  color: silver;
+  background-color: black;
 }
 
 .space{
-  background-color: #fee;
-
+  background-color: transparent;
+  height: 15px;
 }
+
 
 .quizbox-container{
   background-color: silver;
+  border-color: black;
+  border-radius: 4px;
+  box-shadow: 0 0px 10px #efef99;
+}
 
+.sidespace {
+  border: none;
+}
+container {
+  border-color: black;
+}
+
+.quiz-row {
+  border-color: black;
+}
+
+.start:hover, .next:hover, .restart-button:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 5px;
+}
+
+.start {
+  cursor: pointer;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.next {
+  display: none;
 }
 
 .restart-button {
   display: none;
+  cursor: pointer;
+  margin-bottom: 15px;
 }
 
 .current-question-box p {
-  background-color: silver;
+  background-color: black;
+
 }
 
 li{
   cursor: pointer;
+  color: black;
 }
+
+li:hover {
+  transform: scale(1.15);
+  /* box-shadow: 0 0 1 #000; */
+  color: gold;
+}
+
 .score {
-  color: white;
+  color: silver;
   display: none;
-  background-color: blue;
+  background-color: black;
+  text-align: center;
 }
