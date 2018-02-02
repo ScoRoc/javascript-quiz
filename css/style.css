@@ -1,0 +1,36 @@
+h1 {
+  color: blue;
+  background-color: purlpe;
+
+}
+p {
+  color: black;
+  background-color: blue;
+}
+
+.space{
+  background-color: #fee;
+
+}
+
+.quizbox-container{
+  background-color: silver;
+
+}
+
+.restart-button {
+  display: none;
+}
+
+.current-question-box p {
+  background-color: silver;
+}
+
+li{
+  cursor: pointer;
+}
+.score {
+  color: white;
+  display: none;
+  background-color: blue;
+}
